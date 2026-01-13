@@ -88,7 +88,7 @@ class NanoBananaBasicNode:
             headers=headers,
             files=files,
             data=data,
-            timeout=180,
+            timeout=360,
         )
         response.raise_for_status()
 
